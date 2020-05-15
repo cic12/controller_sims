@@ -67,8 +67,6 @@ def seated_exo(x, t_, tau_e_, tau_h_):
     return [d_theta_dt, dd_theta_dt]
 
 
-n_con = 2
-
 # Time Steps
 T = 4
 dt = 0.002
